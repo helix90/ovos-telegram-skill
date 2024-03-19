@@ -51,8 +51,8 @@ Telegram documentation on botfather: https://core.telegram.org/bots#6-botfather
 - On every reboot your bot should send you this welcome message: Telegram-Skill on Mycroft Unit YOURUNIT is loaded and ready to use
 
 ## Credits 
-Lukas Gangel (@luke5sky)
-
+Forked from - Lukas Gangel (@luke5sky)
+Updated by - Robert A (@helix90)
 
 
 ## Category
