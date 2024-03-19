@@ -33,20 +33,20 @@ Save this token and don't post it online or send it to people, safety first!<br/
 
 Telegram documentation on botfather: https://core.telegram.org/bots#6-botfather
 
-- Go to home.mycroft.ai - skills and search for the telegram-skills settings
+- Edit the settingsmeta.yaml file in the telegram-skill folder on your Mycroft Device
 
-- Copy/paste your token botfather gave you in the field BOT TOKEN (MANDATORY)
+- Copy/paste your token botfather gave you in the field TeleToken1 (MANDATORY)
 
-- Copy/paste your device name from home.mycroft.ai - devices in DEVICE NAME (CASE SENSITIVE | MANDATORY)
+- Copy/paste your device name into MDevice1 (CASE SENSITIVE | MANDATORY)
 
-- SAVE and wait till the settings are synced to your Mycroft Unit (or reboot your device to trigger the sync)
+- SAVE and confirm that the settings are synced to your Mycroft Unit
 
 - Open Telegram App on your smartphone and search (upper right corner) for your bot (username or displayname) click on it and write test or hello to your bot
   It should respond with: This is your ChatID: YOURCHATID
 
-- Copy/paste this under PRIMARY CHAT ID (MANDATORY)
+- Copy/paste this into settingsmeta.yaml as User1 (MANDATORY)
 
-- SAVE and wait till the settings are synced to your Mycroft Unit (or reboot your device to trigger the sync)
+- SAVE and confirm the settings are synced to your Mycroft Unit
 
 - On every reboot your bot should send you this welcome message: Telegram-Skill on Mycroft Unit YOURUNIT is loaded and ready to use
 
